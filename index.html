@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dorian Studio Home Page">
+    <meta name="author" content="Sergey Redyuk">
+    <meta name="keywords" content="Dorian, Assisted Design, Data Science Pipelines">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dorian Studio</title>
+    <link rel="icon" href="favicon.svg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </head>
+  <body class="d-flex h-100">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <header class="mb-auto">
+        <nav class="navbar navbar-light">
+          <a class="navbar-brand align-text-center" href="#">
+            <img src="favicon.svg" alt="" width="48" height="48" class="mt-0 align-top">
+            <span class="display-6">Dorian</span>
+          </a>
+          <div class="me-2">
+            <button type="button" class="btn btn-outline-secondary" disabled>Demo</button>
+            <button type="button" class="btn btn-outline-secondary" disabled>Sign up</button>
+          </div>
+        </nav>
+      </header>
+
+      <main class="px-3">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-6">
+              <object data="dorian-blueprint-light.svg" type="image/svg+xml" class="img-fluid">
+                <img src="dorian-blueprint-light.svg" />
+              </object>
+            </div>
+            <div class="col-6">
+              <div class="container-fluid d-flex h-100">
+                <div class="row align-self-center w-100">
+                  <div class="jumbotron jumbotron-fluid shadow-lg p-4">
+                    <h1 class="display-5 p-2">Design of Data Science Pipelines<br>Simplified, adapted to your needs.</h1>
+                    <p class="lead p-2">Alpha release is coming soon.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <footer class="mt-auto text-dark-50">
+        <div class="mb-1 text-center">
+          Designed by <a href="https://github.com/dorianlab">@dorianlab</a>. Founded by <a href="https://heibrids.berlin/">HEIBRiDS</a>, <a href="https://bifold.berlin/">BIFOLD</a>, and <a href="https://softwarecampus.de/">Software Campus</a>.
+        </div>
+      </footer>
+    </div>
+    <style>
+      :root {
+        --main-color: #2C4F8E;
+      }
+
+      body {
+        color: var(--main-color);
+      }
+
+      main img {
+        width:100%;
+        height:auto;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      .jumbotron {
+        width: 55vw;
+      }
+
+      .jumbotron h1 {
+        font-size: 2.5vw;
+      }
+
+      /* Custom default button */
+      .btn-secondary,
+      .btn-secondary:hover,
+      .btn-secondary:focus {
+        color: var(--main-color);
+        text-shadow: none; /* Prevent inheritance from `body` */
+      }
+    </style>
+	</body>
+</html>
