@@ -30,12 +30,13 @@
       <main class="px-3">
         <div class="container-fluid">
           <div class="row">
-            <div class="col-6">
+            <div class="col-6 col-sm-12">
               <object data="dorian-blueprint-light.svg" type="image/svg+xml" class="img-fluid">
                 <img src="dorian-blueprint-light.svg" />
               </object>
             </div>
-            <div class="col-6">
+	    <div class="d-block d-sm-none w-100"></div>
+            <div class="col-6 col-sm-12">
               <div class="container-fluid d-flex h-100">
                 <div class="row align-self-center w-100">
                   <div class="jumbotron jumbotron-fluid shadow-lg p-4">
@@ -79,6 +80,10 @@
 
       .jumbotron h1 {
         font-size: 2.5vw;
+      }
+	    
+      .jumbotron .lead {
+        font-size: 1.5vw;
       }
 
       /* Custom default button */
